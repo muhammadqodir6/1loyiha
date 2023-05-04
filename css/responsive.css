@@ -1,0 +1,43 @@
+@media only screen and (max-width:768px){
+    .navbar__nav a{
+        display: none;
+    }
+    .navbar__nav .fa-bars{
+        display: block;
+    }
+    .banner{
+        width: 100%;
+    }
+    .banner form{
+        width: 100%;
+        position: relative;
+    }
+    .banner .fa-magnifying-glass{
+        margin-right: 10px;
+        position: absolute;
+        top: 15px;
+        right: 10px;
+    }
+    .design__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 2rem ;
+    }
+    .blog__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .about__container{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .about__item h2{
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 2rem;
+        font-family: var(--roboto);
+        letter-spacing: 2px;
+    }  
+}
